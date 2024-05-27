@@ -1,9 +1,0 @@
-DROP TABLE course_semester;
-DROP TABLE student_test_participation;
-DROP TABLE course_teacher;
-DROP TABLE semester;
-DROP TABLE grade;
-DROP TABLE test;
-DROP TABLE course;
-DROP TABLE teacher;
-DROP TABLE students;
