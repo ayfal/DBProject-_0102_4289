@@ -1,0 +1,501 @@
+department,course_name,credit_hours,course_id,coordinator_id,test_id
+History,Data Structures,3.0,1,53,57
+Psychology,Data Structures,3.5,2,45,34
+History,Organic Chemistry,3.0,3,39,4
+History,Linear Algebra,4.5,4,15,11
+Philosophy,Macroeconomics,1.0,5,35,62
+Physics,Organic Chemistry,2.5,6,90,54
+Biology,Calculus I,4.0,7,68,71
+Psychology,Operating Systems,1.0,8,85,3
+Philosophy,Macroeconomics,2.5,9,63,66
+Psychology,Classical Mechanics,1.0,10,97,53
+History,Microbiology,2.5,11,71,16
+Psychology,Organic Chemistry,4.0,12,93,37
+English,Organic Chemistry,1.0,13,64,60
+Economics,Algorithms,4.0,14,22,45
+Computer Science,Inorganic Chemistry,4.0,15,26,17
+Chemistry,Statistics,3.0,16,52,69
+History,Intro to CS,5.0,17,2,63
+Physics,Classical Mechanics,5.0,18,60,18
+History,Ethics,3.0,19,68,94
+Computer Science,Microbiology,2.5,20,81,23
+History,Ethics,4.0,21,36,67
+Psychology,Statistics,3.0,22,91,61
+Biology,Inorganic Chemistry,2.5,23,5,74
+Computer Science,Operating Systems,3.5,24,98,38
+Biology,World History,1.0,25,92,72
+History,Literature,3.5,26,39,11
+Physics,Genetics,5.0,27,41,8
+History,Organic Chemistry,1.0,28,95,84
+Biology,Linear Algebra,3.0,29,81,34
+Psychology,Quantum Physics,2.0,30,95,84
+English,Operating Systems,2.5,31,46,64
+Physics,Calculus II,3.5,32,3,31
+Philosophy,Algorithms,2.5,33,94,98
+Psychology,Data Structures,4.5,34,1,6
+Mathematics,Discrete Math,5.0,35,100,82
+Philosophy,Organic Chemistry,3.5,36,8,54
+Mathematics,Statistics,1.0,37,60,71
+Biology,Data Structures,3.5,38,44,43
+Biology,Literature,4.0,39,8,53
+Chemistry,Quantum Physics,2.5,40,55,68
+Economics,Literature,5.0,41,6,67
+Computer Science,Discrete Math,5.0,42,18,25
+Chemistry,Data Structures,2.5,43,75,56
+Psychology,Literature,5.0,44,76,90
+Mathematics,Data Structures,2.0,45,9,97
+Philosophy,Organic Chemistry,2.0,46,70,98
+Psychology,Microbiology,4.0,47,3,7
+Mathematics,Algorithms,5.0,48,93,29
+Chemistry,Discrete Math,5.0,49,100,33
+History,Algorithms,1.0,50,62,7
+Psychology,Calculus I,4.5,51,72,4
+History,Calculus II,2.5,52,60,4
+Chemistry,Macroeconomics,4.5,53,94,92
+Biology,Statistics,1.0,54,17,91
+Mathematics,Statistics,2.5,55,61,86
+Philosophy,Calculus II,2.0,56,57,79
+Psychology,World History,1.0,57,67,4
+History,Microbiology,3.0,58,14,64
+Biology,Intro to CS,2.5,59,56,40
+Computer Science,Microbiology,1.0,60,11,52
+Philosophy,Ethics,4.0,61,81,39
+Psychology,Literature,4.0,62,98,17
+Biology,Intro to CS,4.5,63,40,69
+History,Operating Systems,4.5,64,83,26
+Computer Science,Genetics,3.0,65,47,94
+History,Literature,5.0,66,27,83
+Biology,Genetics,5.0,67,50,96
+Philosophy,Inorganic Chemistry,4.5,68,57,100
+Mathematics,Operating Systems,1.0,69,60,54
+Chemistry,Microbiology,5.0,70,11,81
+Economics,World History,2.0,71,4,90
+History,Algorithms,2.5,72,43,67
+Chemistry,Organic Chemistry,3.0,73,55,68
+Philosophy,World History,5.0,74,68,81
+Psychology,Linear Algebra,1.0,75,49,23
+Biology,Calculus I,4.0,76,67,85
+Psychology,Algorithms,2.5,77,96,17
+Biology,Statistics,3.5,78,95,52
+Economics,Microbiology,4.5,79,81,68
+English,World History,5.0,80,49,24
+English,World History,4.0,81,95,42
+History,Algorithms,3.0,82,75,75
+Mathematics,Operating Systems,2.5,83,17,27
+Economics,Classical Mechanics,5.0,84,91,44
+English,Operating Systems,2.0,85,27,3
+Chemistry,World History,2.0,86,22,76
+Computer Science,Classical Mechanics,2.0,87,36,58
+Chemistry,Discrete Math,3.0,88,73,15
+Biology,Intro to CS,2.5,89,29,87
+Mathematics,Macroeconomics,4.5,90,17,45
+Economics,Inorganic Chemistry,3.0,91,2,9
+Economics,Linear Algebra,3.0,92,82,80
+Computer Science,Algorithms,4.0,93,47,31
+Economics,Database Systems,5.0,94,12,85
+Chemistry,Quantum Physics,3.5,95,29,58
+Physics,Organic Chemistry,4.0,96,82,10
+English,Intro to CS,1.0,97,49,55
+Economics,Quantum Physics,3.0,98,9,92
+Biology,Operating Systems,3.5,99,45,28
+History,Organic Chemistry,1.0,100,62,65
+Biology,Calculus II,5.0,101,49,61
+Economics,Discrete Math,2.0,102,67,93
+Chemistry,Macroeconomics,2.0,103,13,2
+Philosophy,Macroeconomics,3.0,104,19,31
+Biology,Operating Systems,1.0,105,61,28
+Psychology,Algorithms,2.5,106,35,69
+Computer Science,Quantum Physics,5.0,107,63,94
+Chemistry,Data Structures,4.5,108,20,61
+Economics,Microbiology,2.5,109,52,41
+History,Organic Chemistry,1.0,110,97,60
+English,Quantum Physics,4.5,111,82,26
+Physics,Classical Mechanics,2.5,112,62,51
+Computer Science,Calculus I,2.5,113,93,17
+Philosophy,Macroeconomics,3.5,114,33,40
+Mathematics,Quantum Physics,4.0,115,52,89
+Biology,Data Structures,2.0,116,72,68
+Psychology,Calculus II,3.0,117,73,82
+History,Inorganic Chemistry,4.0,118,86,62
+English,Algorithms,3.0,119,2,85
+Economics,Ethics,3.5,120,19,54
+English,Calculus I,3.0,121,79,31
+Biology,Calculus I,4.5,122,23,38
+Chemistry,Quantum Physics,1.0,123,98,24
+Economics,Ethics,1.0,124,60,15
+Economics,Microbiology,3.0,125,74,71
+Philosophy,Calculus II,4.0,126,6,7
+Computer Science,Genetics,5.0,127,32,40
+Philosophy,Organic Chemistry,3.0,128,69,48
+English,Inorganic Chemistry,2.5,129,65,44
+Economics,Statistics,2.0,130,46,34
+Philosophy,Database Systems,2.0,131,88,31
+English,Literature,2.5,132,97,27
+Chemistry,Calculus II,2.0,133,74,28
+Computer Science,Operating Systems,2.5,134,23,63
+Physics,Statistics,4.5,135,68,47
+Economics,Macroeconomics,4.0,136,65,53
+Psychology,Inorganic Chemistry,3.0,137,39,33
+Economics,Statistics,1.0,138,19,52
+English,Operating Systems,4.5,139,81,17
+Chemistry,Database Systems,4.0,140,20,71
+English,Literature,4.0,141,80,76
+Economics,Genetics,2.5,142,63,53
+Physics,Calculus II,3.5,143,68,51
+Mathematics,Classical Mechanics,3.5,144,7,11
+Computer Science,Algorithms,2.0,145,53,99
+Chemistry,Organic Chemistry,3.5,146,53,14
+Psychology,Statistics,1.0,147,61,39
+Economics,Operating Systems,3.0,148,99,10
+Biology,Microbiology,3.5,149,1,95
+Philosophy,Calculus I,2.0,150,11,74
+Physics,Linear Algebra,5.0,151,34,34
+Philosophy,Calculus II,4.0,152,46,58
+Biology,Calculus II,2.5,153,66,33
+English,Ethics,4.5,154,56,39
+Chemistry,Linear Algebra,2.5,155,19,85
+Philosophy,Discrete Math,4.5,156,83,99
+Mathematics,Macroeconomics,3.0,157,12,62
+Economics,Intro to CS,2.0,158,91,95
+Mathematics,Literature,2.5,159,41,97
+Computer Science,Organic Chemistry,3.0,160,86,23
+Physics,Discrete Math,3.5,161,22,19
+Physics,Intro to CS,5.0,162,18,53
+Psychology,Data Structures,3.5,163,11,53
+Biology,Inorganic Chemistry,1.0,164,43,20
+English,Inorganic Chemistry,1.0,165,24,90
+Physics,Classical Mechanics,4.5,166,8,45
+Physics,World History,3.0,167,3,12
+Philosophy,Literature,2.5,168,51,12
+Computer Science,Statistics,3.0,169,99,10
+Chemistry,Genetics,3.0,170,11,70
+Philosophy,Genetics,2.5,171,27,1
+English,Data Structures,4.0,172,19,21
+Computer Science,Calculus I,2.5,173,12,56
+Philosophy,Discrete Math,5.0,174,7,37
+Philosophy,Database Systems,2.5,175,11,44
+Psychology,Classical Mechanics,2.0,176,55,87
+Philosophy,Literature,3.0,177,21,75
+Mathematics,Macroeconomics,4.5,178,42,86
+Chemistry,Data Structures,2.5,179,46,32
+English,Algorithms,4.5,180,92,36
+Computer Science,Discrete Math,2.0,181,100,5
+Physics,Database Systems,1.0,182,48,36
+English,Linear Algebra,2.5,183,69,33
+Psychology,Organic Chemistry,3.5,184,63,18
+Philosophy,Macroeconomics,3.5,185,99,92
+Physics,Calculus I,2.0,186,80,49
+Economics,Linear Algebra,3.0,187,11,44
+English,Quantum Physics,2.5,188,93,49
+Philosophy,Classical Mechanics,5.0,189,74,69
+Chemistry,Literature,4.5,190,83,100
+Mathematics,Calculus I,4.5,191,26,2
+Physics,Calculus II,4.5,192,4,51
+History,Classical Mechanics,3.5,193,98,92
+Philosophy,Calculus I,1.0,194,10,46
+Physics,Data Structures,5.0,195,85,40
+Computer Science,Data Structures,4.5,196,100,29
+Philosophy,Database Systems,2.5,197,95,97
+Psychology,Literature,3.0,198,35,26
+Psychology,Genetics,2.5,199,65,62
+Philosophy,Intro to CS,5.0,200,27,71
+English,Algorithms,4.0,201,69,11
+History,Classical Mechanics,1.0,202,48,19
+Economics,Linear Algebra,2.0,203,42,96
+Chemistry,Algorithms,5.0,204,4,13
+Biology,Linear Algebra,3.0,205,4,31
+Physics,Operating Systems,4.5,206,30,99
+History,World History,5.0,207,77,13
+Physics,Discrete Math,5.0,208,27,24
+Physics,Data Structures,1.0,209,31,55
+Computer Science,Discrete Math,1.0,210,42,66
+Computer Science,Macroeconomics,1.0,211,16,79
+Biology,Linear Algebra,2.0,212,37,23
+History,Calculus I,2.0,213,74,88
+Computer Science,Classical Mechanics,2.5,214,31,94
+Computer Science,Linear Algebra,2.0,215,40,89
+History,Linear Algebra,3.5,216,22,78
+History,Data Structures,5.0,217,26,10
+Philosophy,World History,5.0,218,80,90
+Mathematics,Calculus I,2.5,219,11,96
+Philosophy,Discrete Math,1.0,220,93,17
+Philosophy,Ethics,5.0,221,35,61
+Computer Science,Classical Mechanics,4.0,222,53,49
+Physics,Inorganic Chemistry,5.0,223,70,52
+English,Data Structures,4.5,224,95,100
+Psychology,Linear Algebra,4.5,225,92,49
+Biology,Inorganic Chemistry,5.0,226,92,72
+Philosophy,Organic Chemistry,5.0,227,92,47
+Psychology,Algorithms,1.0,228,57,20
+Computer Science,Literature,2.5,229,27,44
+Philosophy,Microbiology,3.5,230,19,75
+Computer Science,Classical Mechanics,3.0,231,86,49
+Philosophy,Statistics,2.0,232,66,71
+Chemistry,Organic Chemistry,2.0,233,79,49
+English,Genetics,5.0,234,29,10
+Economics,Ethics,2.0,235,16,21
+Economics,Data Structures,3.0,236,92,66
+Philosophy,Calculus II,2.0,237,63,23
+Mathematics,Calculus II,5.0,238,60,4
+History,Inorganic Chemistry,3.0,239,37,35
+Economics,Calculus II,4.0,240,68,1
+Mathematics,Calculus II,2.0,241,79,6
+Physics,Genetics,2.5,242,87,87
+Psychology,World History,4.5,243,41,50
+Computer Science,Organic Chemistry,3.0,244,89,24
+Chemistry,Genetics,2.0,245,89,64
+English,Calculus I,4.0,246,47,53
+Psychology,Intro to CS,2.0,247,72,1
+Philosophy,Statistics,2.5,248,10,13
+Mathematics,Literature,2.5,249,90,53
+Mathematics,Quantum Physics,3.5,250,89,91
+Computer Science,Discrete Math,4.5,251,86,36
+Philosophy,Calculus I,3.0,252,10,99
+Mathematics,Macroeconomics,4.5,253,69,30
+Chemistry,Discrete Math,2.0,254,45,79
+History,Calculus I,1.0,255,70,13
+Chemistry,Ethics,5.0,256,85,17
+Chemistry,Ethics,1.0,257,98,32
+Economics,Literature,1.0,258,86,43
+Computer Science,Microbiology,5.0,259,68,82
+Economics,Organic Chemistry,1.0,260,25,20
+Mathematics,Literature,3.0,261,50,19
+Biology,Statistics,5.0,262,86,60
+English,Organic Chemistry,3.0,263,67,61
+Psychology,Database Systems,4.0,264,33,94
+History,Intro to CS,4.0,265,10,27
+Biology,Classical Mechanics,2.0,266,37,82
+History,Operating Systems,4.0,267,8,48
+Mathematics,Quantum Physics,3.0,268,16,89
+Biology,Statistics,2.0,269,63,74
+Chemistry,Organic Chemistry,3.0,270,33,61
+English,Organic Chemistry,2.0,271,58,16
+Physics,Inorganic Chemistry,2.0,272,83,28
+Physics,Ethics,3.5,273,55,1
+Biology,Operating Systems,2.0,274,7,13
+Computer Science,Database Systems,3.5,275,99,43
+Mathematics,Inorganic Chemistry,4.5,276,3,21
+Computer Science,Quantum Physics,1.0,277,44,77
+Chemistry,Algorithms,2.5,278,69,79
+Computer Science,Database Systems,2.0,279,45,83
+History,Genetics,3.5,280,4,6
+English,Statistics,3.0,281,72,79
+Mathematics,Database Systems,3.5,282,4,50
+Physics,Classical Mechanics,4.5,283,78,87
+Philosophy,Microbiology,5.0,284,55,62
+History,Intro to CS,1.0,285,54,61
+History,Quantum Physics,4.5,286,40,30
+Philosophy,Data Structures,2.0,287,56,75
+Philosophy,Algorithms,4.5,288,18,98
+Psychology,Microbiology,4.5,289,55,17
+Chemistry,Data Structures,1.0,290,34,54
+Physics,World History,4.0,291,82,38
+Philosophy,Data Structures,3.0,292,70,19
+Economics,Macroeconomics,3.0,293,54,40
+English,Inorganic Chemistry,4.0,294,52,19
+Philosophy,Classical Mechanics,4.5,295,7,99
+Chemistry,Calculus II,3.5,296,3,36
+Computer Science,Ethics,1.0,297,3,55
+English,Calculus II,1.0,298,25,76
+Economics,Inorganic Chemistry,1.0,299,57,42
+Chemistry,Intro to CS,4.0,300,99,25
+Psychology,Data Structures,4.5,301,18,84
+Economics,Linear Algebra,4.5,302,82,9
+Biology,Literature,4.0,303,75,64
+Philosophy,Organic Chemistry,4.0,304,91,45
+Economics,Calculus I,5.0,305,98,75
+Biology,Microbiology,1.0,306,49,10
+Philosophy,Genetics,4.5,307,14,43
+Chemistry,Calculus II,3.5,308,12,36
+Economics,World History,4.5,309,78,36
+English,Statistics,4.0,310,39,25
+English,Database Systems,3.0,311,75,88
+Philosophy,World History,1.0,312,58,69
+Physics,Macroeconomics,3.5,313,96,95
+English,Operating Systems,5.0,314,6,9
+English,Microbiology,1.0,315,48,88
+History,Operating Systems,5.0,316,32,32
+Computer Science,Literature,5.0,317,29,32
+English,Operating Systems,4.0,318,51,39
+Chemistry,Macroeconomics,2.5,319,61,3
+Psychology,Genetics,3.0,320,22,12
+Physics,Calculus II,5.0,321,49,67
+Economics,Statistics,4.0,322,34,3
+Economics,Inorganic Chemistry,5.0,323,74,3
+Physics,Quantum Physics,1.0,324,83,79
+Psychology,Data Structures,4.5,325,29,22
+Mathematics,Inorganic Chemistry,3.5,326,91,83
+Economics,Organic Chemistry,2.0,327,38,99
+English,Genetics,1.0,328,44,88
+Physics,Algorithms,2.0,329,63,11
+Economics,Organic Chemistry,4.0,330,70,56
+Physics,Calculus I,2.0,331,41,76
+Mathematics,World History,3.0,332,26,18
+Economics,Classical Mechanics,1.0,333,78,8
+Physics,Macroeconomics,3.5,334,42,85
+Economics,Organic Chemistry,1.0,335,37,94
+Mathematics,Inorganic Chemistry,4.0,336,24,58
+Philosophy,Organic Chemistry,5.0,337,4,55
+Chemistry,Algorithms,2.0,338,70,67
+English,Classical Mechanics,1.0,339,31,1
+Mathematics,Quantum Physics,3.0,340,20,60
+Economics,Algorithms,4.0,341,18,20
+Economics,Discrete Math,4.5,342,7,60
+History,Microbiology,4.5,343,81,42
+Philosophy,Discrete Math,2.5,344,52,91
+Mathematics,Classical Mechanics,4.5,345,38,11
+Physics,Intro to CS,3.0,346,98,49
+Physics,Data Structures,3.5,347,44,83
+English,Calculus II,2.0,348,89,23
+English,Operating Systems,3.0,349,60,5
+Philosophy,Database Systems,3.0,350,79,56
+Physics,Data Structures,5.0,351,26,40
+Biology,Data Structures,4.5,352,41,93
+English,Literature,4.5,353,76,22
+English,Quantum Physics,1.0,354,57,19
+English,Linear Algebra,1.0,355,53,35
+History,Database Systems,3.0,356,28,38
+Mathematics,Microbiology,3.0,357,68,12
+Biology,Inorganic Chemistry,3.5,358,43,51
+History,Data Structures,2.0,359,47,59
+Economics,Calculus II,5.0,360,66,77
+Economics,Calculus II,5.0,361,86,92
+Chemistry,Calculus II,3.5,362,47,21
+History,Intro to CS,2.5,363,53,32
+Psychology,Discrete Math,5.0,364,41,62
+History,Literature,3.0,365,53,97
+Mathematics,Microbiology,2.5,366,77,25
+Chemistry,Organic Chemistry,4.0,367,36,86
+Economics,Macroeconomics,1.0,368,26,47
+Psychology,Database Systems,2.5,369,93,83
+Mathematics,Operating Systems,4.0,370,55,81
+Mathematics,Intro to CS,2.5,371,43,38
+Computer Science,Statistics,3.0,372,24,84
+Biology,Operating Systems,1.0,373,7,77
+History,Data Structures,2.0,374,79,5
+Philosophy,Ethics,4.0,375,40,67
+Economics,Discrete Math,3.0,376,56,48
+Psychology,Inorganic Chemistry,3.5,377,37,39
+Computer Science,Discrete Math,4.5,378,14,60
+Physics,Classical Mechanics,3.5,379,72,42
+Computer Science,Algorithms,2.5,380,31,39
+Philosophy,Linear Algebra,5.0,381,71,54
+History,Intro to CS,4.5,382,52,29
+Chemistry,Algorithms,4.0,383,14,55
+English,Quantum Physics,5.0,384,65,40
+Psychology,Ethics,1.0,385,31,34
+Biology,World History,1.0,386,34,85
+Physics,Statistics,4.5,387,19,11
+Philosophy,Inorganic Chemistry,3.5,388,87,90
+Computer Science,Macroeconomics,5.0,389,9,84
+Philosophy,Genetics,3.5,390,82,20
+English,Algorithms,5.0,391,77,11
+Computer Science,Intro to CS,3.5,392,62,57
+English,Discrete Math,4.0,393,70,31
+Biology,Literature,4.5,394,76,18
+Physics,Database Systems,2.5,395,3,57
+Physics,Algorithms,1.0,396,65,25
+Computer Science,Classical Mechanics,2.5,397,58,43
+Chemistry,Intro to CS,1.0,398,71,72
+Mathematics,Operating Systems,3.0,399,97,14
+Biology,Classical Mechanics,5.0,400,78,96
+Physics,Quantum Physics,5.0,401,26,10
+Economics,Operating Systems,4.0,402,9,13
+Psychology,Operating Systems,4.0,403,70,73
+Physics,Algorithms,4.0,404,9,74
+Computer Science,Literature,5.0,405,17,7
+History,Inorganic Chemistry,2.0,406,82,21
+Economics,Algorithms,1.0,407,14,92
+Physics,Calculus I,3.5,408,83,61
+Philosophy,Microbiology,3.5,409,47,52
+Economics,Operating Systems,3.0,410,56,63
+Economics,Calculus II,2.0,411,72,73
+Mathematics,Discrete Math,3.0,412,81,10
+Mathematics,Macroeconomics,3.5,413,57,42
+History,Quantum Physics,4.0,414,61,34
+History,Classical Mechanics,4.5,415,93,87
+Biology,Calculus I,5.0,416,74,77
+Physics,World History,5.0,417,10,76
+Economics,Algorithms,1.0,418,97,23
+Biology,Calculus I,5.0,419,97,40
+Chemistry,Discrete Math,2.5,420,25,73
+Psychology,Algorithms,4.0,421,39,66
+English,Intro to CS,3.5,422,41,57
+Mathematics,Algorithms,2.0,423,79,74
+History,Statistics,2.0,424,88,98
+History,Database Systems,5.0,425,86,12
+English,Ethics,4.0,426,18,77
+English,Operating Systems,4.0,427,30,90
+History,Statistics,2.5,428,31,47
+Economics,Operating Systems,3.5,429,36,39
+History,Calculus I,4.5,430,90,52
+Biology,Macroeconomics,3.5,431,35,53
+Philosophy,Inorganic Chemistry,3.0,432,8,77
+Biology,World History,3.0,433,51,1
+English,Algorithms,3.0,434,64,96
+Philosophy,Literature,3.5,435,55,87
+Biology,Intro to CS,4.5,436,95,86
+Chemistry,Inorganic Chemistry,3.0,437,91,72
+English,Linear Algebra,2.5,438,18,79
+History,Literature,3.5,439,58,8
+Economics,Organic Chemistry,1.0,440,90,59
+Computer Science,Algorithms,1.0,441,100,60
+Psychology,Literature,5.0,442,90,76
+Mathematics,Linear Algebra,3.0,443,96,20
+History,Linear Algebra,3.0,444,64,60
+Computer Science,Linear Algebra,4.0,445,63,46
+Mathematics,Algorithms,3.0,446,37,16
+Economics,Quantum Physics,1.0,447,39,67
+English,Discrete Math,3.5,448,73,77
+Philosophy,Database Systems,4.0,449,75,29
+Computer Science,Inorganic Chemistry,2.0,450,34,22
+English,Quantum Physics,3.5,451,71,77
+English,Data Structures,4.5,452,77,18
+History,Classical Mechanics,1.0,453,96,24
+Physics,Intro to CS,1.0,454,60,15
+Chemistry,Linear Algebra,4.5,455,78,57
+Mathematics,Data Structures,4.0,456,93,19
+Mathematics,Microbiology,3.5,457,86,12
+Philosophy,Intro to CS,1.0,458,18,75
+History,Organic Chemistry,2.0,459,40,69
+Philosophy,World History,1.0,460,37,58
+Mathematics,Linear Algebra,2.0,461,22,76
+Mathematics,Inorganic Chemistry,3.0,462,45,41
+English,Linear Algebra,3.5,463,25,68
+Biology,Database Systems,3.5,464,23,94
+Economics,Microbiology,2.5,465,92,4
+Psychology,Calculus II,4.0,466,20,84
+Chemistry,Intro to CS,3.5,467,52,96
+Biology,Genetics,3.5,468,49,92
+History,Calculus I,3.0,469,43,53
+Psychology,Algorithms,3.0,470,75,86
+Mathematics,Data Structures,4.0,471,81,40
+Economics,Database Systems,4.5,472,18,16
+Computer Science,Database Systems,4.0,473,10,85
+Philosophy,Algorithms,3.0,474,96,82
+Mathematics,Literature,2.0,475,65,31
+Physics,Calculus I,3.5,476,89,43
+History,Algorithms,4.5,477,96,55
+Psychology,Microbiology,4.0,478,69,91
+Chemistry,Organic Chemistry,3.5,479,86,73
+Economics,Calculus I,3.5,480,11,62
+Biology,Intro to CS,3.5,481,96,14
+Chemistry,Classical Mechanics,2.0,482,32,95
+English,Macroeconomics,1.0,483,46,59
+Philosophy,Microbiology,4.5,484,85,28
+Psychology,Discrete Math,3.0,485,34,96
+History,Operating Systems,2.0,486,46,18
+Physics,Statistics,1.0,487,80,74
+English,Literature,2.5,488,16,56
+History,Calculus II,5.0,489,39,65
+Computer Science,Calculus II,1.0,490,76,81
+Philosophy,Statistics,2.0,491,14,32
+Chemistry,Quantum Physics,1.0,492,75,27
+Biology,Genetics,2.0,493,30,78
+Computer Science,Intro to CS,1.0,494,6,29
+Physics,Data Structures,1.0,495,38,30
+Philosophy,Operating Systems,2.0,496,70,88
+Mathematics,Database Systems,1.0,497,61,95
+Psychology,Ethics,4.0,498,32,65
+Psychology,Data Structures,2.0,499,84,26
+History,Linear Algebra,4.0,500,29,76
