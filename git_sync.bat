@@ -11,10 +11,10 @@ IF %ERRORLEVEL% EQU 0 (
 
     REM Ask the user for the commit message
     set /p commit_message="Enter commit message: "
-    echo "%commit_message%"
+    
     REM Commit the changes with the user-provided message
     git commit -m "!commit_message!"
-    echo "%commit_message%"
+    
     REM Push any local changes to the remote repository
     git push
 )
