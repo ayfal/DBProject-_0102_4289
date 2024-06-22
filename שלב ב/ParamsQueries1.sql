@@ -33,10 +33,22 @@ DEALLOCATE PREPARE stmt;
 
 
 
-
-
-
 -- ParamsQueries query 3
+PREPARE stmt FROM 'SELECT
+        students.id,
+        students.first_name,
+        students.last_name,
+        AVG(grade.grade) AS average_grade
+		FROM students, grade WHERE grade.student_id = ? AND students.id = ?';
+        
+-- Set the parameters
+SET @num_id = '26';
+
+-- Execute the prepared statement with the parameters
+EXECUTE stmt USING @num_id, @num_id ;
+
+-- Deallocate the prepared statement (optional)
+DEALLOCATE PREPARE stmt;
 
 
 

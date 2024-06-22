@@ -1,5 +1,4 @@
 # get the top 10% of students with the highest average grades, of a given year
-#PREPARE stmt FROM 
 WITH StudentAverages AS (
     SELECT
         students.id,

@@ -1,4 +1,4 @@
-set FOREIGN_key_checks=0;
+
 insert into student_test_participation (student_id, test_id) values ('1', '1');
 insert into student_test_participation (student_id, test_id) values ('1', '2');
 insert into student_test_participation (student_id, test_id) values ('1', '3');
