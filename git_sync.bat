@@ -1,6 +1,9 @@
 @echo off
 setlocal enabledelayedexpansion
 
+REM inform the user that pulling the latest changes starts
+echo Pulling the latest changes from the remote repository...
+
 REM Pull the latest changes from the remote repository
 git pull
 
