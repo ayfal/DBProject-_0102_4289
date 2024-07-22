@@ -28,3 +28,20 @@ SET @random_grade = '67';
 EXECUTE stmt USING @random_grade;
 --Deallocate the prepared statement
 DEALLOCATE PREPARE stmt;
+
+
+UPDATE grade SET grade = 100 WHERE student_id = 706 AND test_id = 3;
+
+UPDATE semester SET start_date = '2023-09-01', end_date = '2023-12-31'
+	WHERE semester.semester_id = 1;
+	
+	
+	
+	
+	SELECT
+        students.id,
+        students.first_name,
+        students.last_name,
+        AVG(grade.grade) AS average_grade
+		FROM students, grade 
+		WHERE grade.student_id = 23 AND students.id = 23
