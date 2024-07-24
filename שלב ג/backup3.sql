@@ -147,7 +147,7 @@ CREATE DEFINER=`root`@`localhost` FUNCTION `calculate_average_grade` (`p_student
     RETURN avg_grade;
 END$$
 
-CREATE DEFINER=`root`@`localhost` FUNCTION `get_student_courses` (`p_student_id` INT) RETURNS VARCHAR(1000) CHARSET utf8mb4 COLLATE utf8mb4_general_ci  BEGIN
+CREATE DEFINER=`root`@`localhost` FUNCTION `get_student_courses` (`p_student_id` INT) RETURNS VARCHAR(1000) CHARSET utf8mb4 COLLATE utf8mb4_unicode_ci  BEGIN
     DECLARE course_list VARCHAR(1000) DEFAULT '';
     DECLARE course_name VARCHAR(100);
     DECLARE done INT DEFAULT 0;
@@ -193,7 +193,7 @@ CREATE TABLE `course` (
   `department` varchar(100) DEFAULT NULL,
   `credit_hours` int(11) DEFAULT 3,
   `coordinator_id` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `course`
@@ -1082,7 +1082,7 @@ INSERT INTO `course` (`course_id`, `course_name`, `department`, `credit_hours`, 
 CREATE TABLE `course_semester` (
   `course_id` int(11) NOT NULL,
   `semester_id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `course_semester`
@@ -1970,7 +1970,7 @@ INSERT INTO `course_semester` (`course_id`, `semester_id`) VALUES
 CREATE TABLE `course_teacher` (
   `course_id` int(11) NOT NULL,
   `teacher_id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `course_teacher`
@@ -2471,7 +2471,7 @@ CREATE TABLE `grade` (
   `student_id` int(11) NOT NULL,
   `test_id` int(11) NOT NULL,
   `grade` int(11) DEFAULT 0
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `grade`
@@ -3294,7 +3294,7 @@ CREATE TABLE `semester` (
   `semester_name` varchar(50) DEFAULT NULL,
   `start_date` date DEFAULT NULL,
   `end_date` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `semester`
@@ -4314,7 +4314,7 @@ CREATE TABLE `students` (
   `last_name` varchar(50) DEFAULT NULL,
   `date_of_birth` date DEFAULT NULL,
   `start_of_study` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `students`
@@ -5334,7 +5334,7 @@ CREATE TABLE `student_course_registration` (
   `course_id` int(11) NOT NULL,
   `semester_id` int(11) NOT NULL,
   `teacher_id` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -5345,7 +5345,7 @@ CREATE TABLE `student_course_registration` (
 CREATE TABLE `student_test_participation` (
   `student_id` int(11) NOT NULL,
   `test_id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `student_test_participation`
@@ -6193,7 +6193,7 @@ CREATE TABLE `teacher` (
   `fname` varchar(50) DEFAULT NULL,
   `lname` varchar(50) DEFAULT NULL,
   `start_learning` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `teacher`
@@ -7118,7 +7118,7 @@ CREATE TABLE `test` (
   `test_time` time DEFAULT NULL,
   `test_date` date DEFAULT NULL,
   `course_id` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `test`
