@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 24, 2024 at 12:00 PM
+-- Generation Time: Jul 24, 2024 at 03:39 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -4233,6 +4233,20 @@ INSERT INTO `grade` (`student_id`, `test_id`, `grade`) VALUES
 (998, 443, 64),
 (998, 732, 62),
 (999, 178, 48);
+
+-- --------------------------------------------------------
+
+--
+-- Stand-in structure for view `grade_view`
+-- (See below for the actual view)
+--
+CREATE TABLE `grade_view` (
+`id` int(11)
+,`first_name` varchar(50)
+,`last_name` varchar(50)
+,`grade` int(11)
+,`test_id` int(11)
+);
 
 -- --------------------------------------------------------
 
@@ -9747,6 +9761,41 @@ INSERT INTO `test` (`test_id`, `test_time`, `test_date`, `course_id`) VALUES
 (954, '08:56:00', '2024-03-07', 316),
 (955, '01:47:00', '2023-06-01', 786),
 (956, '03:20:00', '2023-10-20', 352);
+
+-- --------------------------------------------------------
+
+--
+-- Stand-in structure for view `tuition`
+-- (See below for the actual view)
+--
+CREATE TABLE `tuition` (
+`id` int(11)
+,`first_name` varchar(50)
+,`last_name` varchar(50)
+,`student_id` int(11)
+,`amount` decimal(10,2)
+,`transfer_date` date
+,`description` varchar(255)
+,`outgoing` tinyint(1)
+);
+
+-- --------------------------------------------------------
+
+--
+-- Structure for view `grade_view`
+--
+DROP TABLE IF EXISTS `grade_view`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `grade_view`  AS SELECT `students`.`id` AS `id`, `students`.`first_name` AS `first_name`, `students`.`last_name` AS `last_name`, `grade`.`grade` AS `grade`, `grade`.`test_id` AS `test_id` FROM (`students` join `grade`) WHERE `students`.`id` = `grade`.`student_id` ;
+
+-- --------------------------------------------------------
+
+--
+-- Structure for view `tuition`
+--
+DROP TABLE IF EXISTS `tuition`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `tuition`  AS SELECT `students`.`id` AS `id`, `students`.`first_name` AS `first_name`, `students`.`last_name` AS `last_name`, `student_transfers`.`student_id` AS `student_id`, `bank_transfer`.`amount` AS `amount`, `bank_transfer`.`transfer_date` AS `transfer_date`, `bank_transfer`.`description` AS `description`, `bank_transfer`.`outgoing` AS `outgoing` FROM ((`students` join `student_transfers`) join `bank_transfer`) WHERE `students`.`id` = `student_transfers`.`student_id` AND `student_transfers`.`transfer_id` = `bank_transfer`.`transfer_id` ;
 
 --
 -- Indexes for dumped tables
