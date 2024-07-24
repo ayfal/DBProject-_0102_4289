@@ -5,8 +5,6 @@ CREATE TABLE bank_transfer (
     transfer_date DATE,
     description VARCHAR(255),
     outgoing BOOLEAN,
-    FOREIGN KEY (person_id) REFERENCES students(id) ON DELETE CASCADE,
-    FOREIGN KEY (person_id) REFERENCES teacher(id) ON DELETE CASCADE
 );
 
 CREATE TABLE student_transfers (
